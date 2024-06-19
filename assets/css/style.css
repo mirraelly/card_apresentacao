@@ -16,8 +16,8 @@ body {
 }
 
 .container .card {
-    height: 87vh;
-    width: 80%;
+    height: 90vh;
+    width: 85%;
     padding: 0em 1em;
     margin: auto;
     border-radius: 5px;
@@ -143,10 +143,10 @@ body {
     box-shadow: 3px 3px 4px 1px #4e4e4ec7;
 
 }
-
+/* 
 #network li {
     padding: 0 0.3em;
-}
+} */
 
 .container #en {
     border-left: #f80cadde 2.5px solid;
@@ -176,15 +176,17 @@ body {
 .container .card .network-box ul #sobreMim {
     background-color: #ef0189;
     font-weight: bold;
+    box-sizing: border-box;
+    border: #ef0189 0.15em solid;
 }
 
 .container .card .network-box ul #sobreMim:hover {
     border: #4c0080 0.15em solid;
     background-color: #fefefe;
     color: #ef0189;
-    height: 1.7em;
-    width: 12.2em;
-    line-height: 1.8em;
+    /* height: 1.7em;
+    line-height: 1.8em; */
+    
 }
 
 .container .card .network-box ul li:not(firt-child):hover {
@@ -198,6 +200,10 @@ body {
     color: #ffffff;
     line-height: 2em;
     text-align: center;
+}
+
+.container .card .network-box ul li:hover #myBio {
+    color: #f80cadde;
 }
 
 footer {
