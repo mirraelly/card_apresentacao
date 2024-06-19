@@ -1,0 +1,318 @@
+body {
+    background: linear-gradient(90deg, #f80cadde, #935efdd5, #27377c);
+    font-family: 'Roboto', sans-serif;
+    height: 110vh;
+    text-align: center;
+}
+
+.container {
+    max-width: 110vh;
+    max-height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 0 0 0;
+}
+
+.container .card {
+    height: 87vh;
+    width: 80%;
+    padding: 0em 1em;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #fdf7f7;
+    box-shadow: 5px 6px 5px 1px #4e4e4ec7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: hidden;
+    align-items: stretch;
+}
+
+.container .card .language-box {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container .card .language-box #languages {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 0.2em;
+    font-size: 15px;
+    padding-bottom: 0.2em;
+    border-radius: 5px;
+    border: #4c0080 solid 0.15em;
+    color: #4c0080;
+    background-color: #f1beeec7;
+    margin-right: 0.5em;
+}
+
+.container .card #content .profile-container .profile {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .card #content .profile-container .profile span {
+    width: 9.8em;
+    height: 9.8em;
+    perspective: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .card #content .profile-container .profile span .img {
+    width: 8em;
+    margin: 0.2em auto;
+    align-items: center;
+    border: #4c0080 solid 2px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px 1px #4e4e4ec7;
+    object-fit: cover;
+    position: absolute;
+    backface-visibility: hidden;
+    top: 0;
+    pointer-events: none;
+}
+
+.container .card #content .profile-container .profile span #photo {
+    width: 8em;
+    height: 8em;
+}
+
+.container .card #content .profile-container .profile span #avatar {
+    transform: rotateY(-180deg);
+}
+
+.container .card #content .profile-container .profile #name {
+    color: #4c0080;
+    font-weight: bold;
+    font-size: 1.3750em;
+}
+
+.container .card #content .profile-container .profile #skills {
+    font-weight: bold;
+    color: #4c0080;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.1em;
+    padding-top: 0.5em;
+}
+
+.container .card #content .show-about {
+    display: none;
+}
+
+.presentation {
+    text-align: justify;
+    line-height: 1.3750em;
+    text-indent: 30px;
+    padding: 1.5em;
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: wrap-reverse;
+    gap: 1.8em;
+    color: black;
+    align-items: center;
+    font-size: 1.05em;
+}
+
+.newContent {
+    padding: 0 0.8em 0 0.8em;
+    font-size: 1.13em;
+}
+
+.container .card #content .show-about .x {
+    color: black;
+    background-color: red;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    font-size: 1.15em;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 4px 1px #4e4e4ec7;
+
+}
+
+#network li {
+    padding: 0 0.3em;
+}
+
+.container #en {
+    border-left: #f80cadde 2.5px solid;
+    border-right: #f80cadde 2.5px solid;
+}
+
+
+.container .card .network-box ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 1.5em;
+    gap: 0.5em;
+    flex-wrap: wrap;
+}
+
+.container .card .network-box ul li {
+    width: 12.5em;
+    background-color: #4c0080;
+    height: 2em;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 4px 4px 4px 1px #4e4e4ec7;
+}
+
+.container .card .network-box ul #sobreMim {
+    background-color: #ef0189;
+    font-weight: bold;
+}
+
+.container .card .network-box ul #sobreMim:hover {
+    border: #4c0080 0.15em solid;
+    background-color: #fefefe;
+    color: #ef0189;
+    height: 1.7em;
+    width: 12.2em;
+    line-height: 1.8em;
+}
+
+.container .card .network-box ul li:not(firt-child):hover {
+    background-color: #f80cadde;
+    font-weight: bold;
+}
+
+.container .card .network-box ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 2em;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0.3rem;
+    font-size: 14px;
+    padding: 2em 0 0 0;
+}
+
+.container .card .profile-container .profile span {
+    animation: turn 3s ease-in-out infinite;
+    transform-style: preserve-3d;
+}
+
+@keyframes turn {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    50% {
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+@media screen and (max-width: 510px) {
+
+    .body,
+    .container {
+        max-height: 500vh;
+        /* height: 100%; */
+        overflow: hidden;
+        margin-top: 1em;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .container .card {
+        height: 150vh;
+        padding: 0.3em 0.1em 1em 0;
+        width: 85%;
+        height: 90%;
+    }
+
+    .container .card .content {
+        gap: 0.5em;
+    }
+
+    .container .card .profile-container {
+        padding-bottom: 0.2em;
+    }
+
+    .container .card .profile-container .profile span {
+        width: 8.8em;
+        height: 8.8em;
+    }
+
+    .container .card .profile-container .profile span #avatar,
+    .container .card .profile-container .profile span #photo {
+        width: 7em;
+        height: 7em;
+    }
+
+    .container .card .profile-container .profile #name {
+        font-size: 1.2em;
+        padding: 0 0.4em 0 0.4em;
+    }
+
+    .container .card .profile #skills {
+        font-size: 0.8em;
+        padding: 0 0.4em 0 0.4em;
+    }
+
+    /* .container .card .network-box {
+        height: 18.50em; 
+        overflow: hidden;
+    } */
+
+    .container .card .network-box ul {
+        gap: 0;
+        padding-top: 0.3em;
+    }
+
+    .container .card .network-box ul li {
+        width: 100%;
+        height: 100%;
+        transform: scale(0.8);
+        gap: 0;
+    }
+
+    .presentation {
+        transform: scale(0.8);
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .newContent {
+        font-size: none;
+        text-align: justify;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        columns: auto;
+        margin: auto;
+        padding: 1.5em 3em;
+    }
+}
