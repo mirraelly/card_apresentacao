@@ -61,7 +61,7 @@ informações e alguns links de projetos e redes importantes para um contato ini
   <img alt="Celular" height="580" src="assets/images/readme_img/print_cell.jpeg"><br>
      <em>Visualização da tela via Celular</em> 
  </div>
- 
+ <br><br>
   <div align="center">
   <img alt="QRCode de Acesso" height="480" src="assets/images/readme_img/qrcode_ecard.svg"><br>
      <em>QR Code de Acessor</em> 
