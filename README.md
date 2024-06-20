@@ -62,6 +62,12 @@ informações e alguns links de projetos e redes importantes para um contato ini
      <em>Visualização da tela via Celular</em> 
  </div>
  
+  <div align="center">
+  <img alt="QRCode de Acesso" height="480" src="assets/images/readme_img/qrcode_ecard.svg"><br>
+     <em>QR Code de Acessor</em> 
+ </div>
+ 
+ 
 ## Utilização 
 
   O cartão está disponível em 4 idiomas os quais já tive contato (inglês, português, espanhol e francês),
@@ -73,6 +79,7 @@ informações e alguns links de projetos e redes importantes para um contato ini
   
   Logo abaixo, temos uma "caixa" com links disponíveis. No primeiro deles, conseguimos verificar uma breve apresentação pessoal, com um botão para "fechar" essa apresentação.
   Já nos demais, é possível acessar links externos de redes sociais e projetos desenvolvidos.  
+  
 
 ## Considerações finais
 
@@ -86,3 +93,8 @@ Assim como os demais projetos, este está aberto a sugestões e contribuições.
 * LinkedIn: [https://www.linkedin.com/in/mirraely/](https://www.linkedin.com/in/mirraely/)
 * GitHub: [https://github.com/mirraelly](https://github.com/mirraelly)
 * Instagram: [https://www.instagram.com/mirraely__/](https://www.instagram.com/mirraely__/)
+
+## Outras tecnologias utilizadas
+
+* Imagem do Avatar produzido com IA
+* QRCode produzido por meio meio de ferramenta de encurtador de link: Bitly
