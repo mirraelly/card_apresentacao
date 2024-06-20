@@ -141,12 +141,7 @@ body {
     justify-content: center;
     align-items: center;
     box-shadow: 3px 3px 4px 1px #4e4e4ec7;
-
 }
-/* 
-#network li {
-    padding: 0 0.3em;
-} */
 
 .container #en {
     border-left: #f80cadde 2.5px solid;
@@ -184,9 +179,6 @@ body {
     border: #4c0080 0.15em solid;
     background-color: #fefefe;
     color: #ef0189;
-    /* height: 1.7em;
-    line-height: 1.8em; */
-    
 }
 
 .container .card .network-box ul li:not(firt-child):hover {
@@ -240,7 +232,6 @@ footer {
     .body,
     .container {
         max-height: 500vh;
-        /* height: 100%; */
         overflow: hidden;
         margin-top: 1em;
     }
@@ -284,11 +275,6 @@ footer {
         font-size: 0.8em;
         padding: 0 0.4em 0 0.4em;
     }
-
-    /* .container .card .network-box {
-        height: 18.50em; 
-        overflow: hidden;
-    } */
 
     .container .card .network-box ul {
         gap: 0;
