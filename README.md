@@ -27,7 +27,7 @@ informações e alguns links de projetos e redes importantes para um contato ini
 
 ## Deploy disponível 
 
-[Cartão de Apresentação](bit.ly/mirraely)
+[Cartão de Apresentação](https://bit.ly/mirraely)
 
 ## A organização do site
 
