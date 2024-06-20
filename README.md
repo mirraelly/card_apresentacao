@@ -63,7 +63,7 @@ informações e alguns links de projetos e redes importantes para um contato ini
  </div>
  <br><br>
   <div align="center">
-  <img alt="QRCode de Acesso" height="480" src="assets/images/readme_img/qrcode_ecard.svg"><br>
+  <img alt="QRCode de Acesso" height="280" src="assets/images/readme_img/qrcode_ecard.svg"><br>
      <em>QR Code de Acesso</em> 
  </div>
  
