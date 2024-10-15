@@ -1,83 +1,96 @@
 <!DOCTYPE html>
 
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <script src="./js/informations.js" defer></script>
 
     <title>Mirraely Moura</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <main class="container">
-
-        <section class="card">
-            <section class="language-box">
-                <select id="languages">
-                    <option id="pt" value="pt"></option>
-                    <option id="en" value="en"></option>
-                    <option id="es" value="es"></option>
-                    <option id="fr" value="fr"></option>
-                </select>
-            </section>
-
-            <section id="content">
-                <section class="profile-container" id="newParagraph">
-                    <article class="profile">
-                        <span>
-                            <img id="photo" class="img"
-                                alt="Mirraely Moura's photo.">
-                            <img id="avatar" class="img" alt="Mirraely Moura's avatar.">
-                        </span>
-                        <h1 id="name"></h1>
-                        <ul id="skills">
-                            <li id="devSkill"></li>
-                            <!-- <li id="techUxSkill"></li> -->
-                            <li id="lawTourismSkill"></li>
-                            <li id="supervisorSkill"></li>
-                        </ul>
-                    </article>
-                </section>
-
-                <div id="showAbout" class="show-about presentation">
-                    <div class="newContent">
-                        <!-- Content to be inserted with javascript -->
-                    </div>
-                    <button id="close" onclick="removeCard()" class="x"></button>
-                </div>
-
-                <section class="network-box">
-                    <ul id="network">
-                        <li id="sobreMim" class="myBio"><a id="myBio" onclick="transformCard()"></a></li>
-                        <li><a id="portfolioLink" target="_blank"></a></li>
-                        <li><a id="linkedinLink" target="_blank"></a></li>
-                        <li><a id="githubLink" target="_blank"></a></li>
-                        <li><a id="instagramLink" target="_blank"></a></li>
-                        <li><a id="gameDevLink" target="_blank"></a></li>
-                        <li><a id="taskBoardLink" target="_blank"></a></li>
-                        <li><a id="raizesDaCuraLink" target="_blank"></a></li>
-                        <li><a id="nasaHackathonLink" target="_blank"></a></li>
-                    </ul>
-                </section>
-
-            </section>
+      <section class="card">
+        <section class="language-box">
+          <select id="languages">
+            <option id="pt" value="pt"></option>
+            <option id="en" value="en"></option>
+            <option id="es" value="es"></option>
+            <option id="fr" value="fr"></option>
+          </select>
         </section>
+
+        <section id="content">
+          <section class="profile-container" id="newParagraph">
+            <article class="profile">
+              <span>
+                <img id="photo" class="img" alt="Mirraely Moura's photo." />
+                <img id="avatar" class="img" alt="Mirraely Moura's avatar." />
+              </span>
+              <h1 id="name"></h1>
+              <ul id="skills">
+                <li id="devSkill"></li>
+                <!-- <li id="techUxSkill"></li> -->
+                <li id="lawTourismSkill"></li>
+                <li id="supervisorSkill"></li>
+              </ul>
+            </article>
+          </section>
+
+          <div id="showAbout" class="show-about presentation">
+            <div class="newContent">
+              <!-- Content to be inserted with javascript -->
+            </div>
+            <button id="close" onclick="removeCard()" class="x"></button>
+          </div>
+
+          <section class="network-box">
+            <ul id="network">
+              <li id="sobreMim" class="myBio">
+                <a id="myBio" onclick="transformCard()"></a>
+              </li>
+              <li><a id="portfolioLink" target="_blank"></a></li>
+              <li><a id="linkedinLink" target="_blank"></a></li>
+              <li><a id="githubLink" target="_blank"></a></li>
+              <li><a id="instagramLink" target="_blank"></a></li>
+              <li><a id="gameDevLink" target="_blank"></a></li>
+              <li><a id="taskBoardLink" target="_blank"></a></li>
+              <li><a id="raizesDaCuraLink" target="_blank"></a></li>
+              <li><a id="nasaHackathonLink" target="_blank"></a></li>
+            </ul>
+          </section>
+        </section>
+      </section>
     </main>
 
     <footer>
-        <p>© Desenvolvido por Mirraely Moura</p>
-        <p>2024</p>
+      <p>© Desenvolvido por Mirraely Moura</p>
+      <p>2024</p>
     </footer>
 
-</body>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-EYQESNYLVE"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
+      gtag("config", "G-EYQESNYLVE");
+    </script>
+  </body>
 </html>
