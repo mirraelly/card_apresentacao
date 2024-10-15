@@ -1,7 +1,6 @@
 {
     "ptCard": {
         "devSkill": "{ Dev. Front-end }",
-        "techUxSkill": "{ Est. Design UX / UI & T. TI }",
         "lawTourismSkill": "{ B. Direito & T. Guia de Turismo }",
         "supervisorSkill": "{ Exp. em Gestão & Atendimento }",
         "sobreMim": "Sobre mim 👩🏼‍💻",
@@ -10,13 +9,13 @@
         "linkedin": "LinkedIn",
         "github": "GitHub",
         "instagram": "Instagram",
+        "gameDev": "Game Dev",
         "taskBoard": "Quadro de Tarefas",
         "raizesDaCura": "Raízes da Cura",
         "nasaHackathon": "Hackathon Nasa"
     },
     "enCard": {
         "devSkill": "{ Frontend developer }",
-        "techUxSkill": "{ UX / UI Design student & IT Tech }",
         "lawTourismSkill": "{ Bachelor's in Law and Tourism Guide Tech}",
         "supervisorSkill": "{ Exp. in Management & Customer Service }",
         "sobreMim": "About me 👩🏼‍💻",
@@ -25,13 +24,13 @@
         "linkedin": "LinkedIn",
         "github": "GitHub",
         "instagram": "Instagram",
+        "gameDev": "Game Dev",
         "taskBoard": "Task Board",
         "raizesDaCura": "Roots of Healing",
         "nasaHackathon": "Hackathon's Nasa"
     },
     "esCard": {
         "devSkill": "{ Desarrolladora front-end }",
-        "techUxSkill": "{ Est. Diseño UX/UI y Téc. TI }",
         "lawTourismSkill": "{ Lic. Derecho y Téc. Guía Turismo }",
         "supervisorSkill": "{ Exp. en Gestión y Atención }",
         "sobreMim": "Sobre mí 👩🏼‍💻",
@@ -40,13 +39,13 @@
         "linkedin": "LinkedIn",
         "github": "GitHub",
         "instagram": "Instagram",
+        "gameDev": "Game Dev",
         "taskBoard": "Tablero de Tareas",
         "raizesDaCura": "Raíces de la Cura",
         "nasaHackathon": "Hackatón Nasa"
     },
     "frCard": {
         "devSkill": "{ Dév. frontend }",
-        "techUxSkill": "{ Étud. UX/UI & Techn. TI }",
         "lawTourismSkill": "{ Lic. Droit & Techn. Guide Tour }",
         "supervisorSkill": "{ Exp. Gestion & Service Client }",
         "sobreMim": "En breve👩🏼‍💻",
@@ -55,6 +54,7 @@
         "linkedin": "LinkedIn",
         "github": "GitHub",
         "instagram": "Instagram",
+        "gameDev": "Game Dev",
         "taskBoard": "Tableau des Tâches",
         "raizesDaCura": "Racines de La Guérison",
         "nasaHackathon": "Hackathon Nasa"
@@ -71,6 +71,7 @@
         "linkedinLink": "https://www.linkedin.com/in/mirraely/",
         "githubLink": "https://github.com/mirraelly",
         "instagramLink": "https://www.instagram.com/mirraely__/",
+        "gameDevLink": "https://mirraelly.github.io/game-dev-react/",
         "taskBoardLink": "https://mirraelly.github.io/desafio-quadro-tarefas/",
         "raizesDaCuraLink": "https://mirraelly.github.io/Grupo3/",
         "nasaHackathonLink": "https://mirraelly.github.io/hackathon-nasa/",

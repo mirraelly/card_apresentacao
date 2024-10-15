@@ -39,7 +39,7 @@ function fill(commonItems, card) {
     document.getElementById('avatar').src = commonItems.avatar;
     document.getElementById('name').innerHTML = commonItems.name;
     document.getElementById('devSkill').innerHTML = card.devSkill;
-    document.getElementById('techUxSkill').innerHTML = card.techUxSkill;
+    // document.getElementById('techUxSkill').innerHTML = card.techUxSkill;
     document.getElementById('lawTourismSkill').innerHTML = card.lawTourismSkill;
     document.getElementById('supervisorSkill').innerHTML = card.supervisorSkill;
     document.getElementById('close').innerHTML = commonItems.x;
@@ -60,6 +60,8 @@ function fill(commonItems, card) {
     document.getElementById('githubLink').href = commonItems.githubLink;
     document.getElementById('instagramLink').innerHTML = card.instagram;
     document.getElementById('instagramLink').href = commonItems.instagramLink;
+    document.getElementById('gameDevLink').innerHTML = card.gameDev;
+    document.getElementById('gameDevLink').href = commonItems.gameDevLink;
     document.getElementById('taskBoardLink').innerHTML = card.taskBoard;
     document.getElementById('taskBoardLink').href = commonItems.taskBoardLink;
     document.getElementById('raizesDaCuraLink').innerHTML = card.raizesDaCura;
